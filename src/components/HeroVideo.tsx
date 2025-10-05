@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Star, Share2, CircleUserRound, Clock} from 'lucide-react';
+import { Star, CircleUserRound, Clock} from 'lucide-react';
 import bdcursos from '../data/videos.json';
 import { useFavorites } from './Contexto/ContextoFavoritos';
 import TarjetaCurso from './TarjetaCursos/TarjetaCursos';

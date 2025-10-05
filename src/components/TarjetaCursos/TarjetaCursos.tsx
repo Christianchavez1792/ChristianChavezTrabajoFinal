@@ -19,7 +19,6 @@ const TarjetaCurso = ({
     id,
     título,
     descripción,
-    categoría,
     thumbnail,
     duración,
     instructor,
@@ -27,7 +26,7 @@ const TarjetaCurso = ({
     isFavorite = false,
     onToggleFavorite
 }: TarjetaCursoProps) => {
-    const [isHovered, setIsHovered] = useState(false);
+    const [, setIsHovered] = useState(false);
     const navigate = useNavigate();
 
     const toggleFavorite = (e: React.MouseEvent) => {

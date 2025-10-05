@@ -2,22 +2,21 @@ import { useState } from "react";
 
 const FormularioIngreso = () => {
 
-    const [user, setUSer] = useState({
+    const [user, setUser] = useState({
         username: "",
         password: ""
     })
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         console.log(user);
     }
 
-    const handleUsernameInput = (e) => {
+    const handleUsernameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         setUser({ ...user, username: e.target.value })
     }
 
-    const handlePasswordInput = (e) => {
-        setUser({ ...user, password: e.target.value })
+    const handlePasswordInput = (_e: React.ChangeEvent<HTMLInputElement>) => {
     }
 
     return (
