@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <div className="w-full bg-[#13162E] px-4 lg:px-8 py-4">
+                <div className="w-full bg-[#13162E] px-4 lg:px-8 py-4 border-b border-[#C2EAFC]">
                     <div className="flex items-center justify-between">
                         <div className="flex-shrink-0">
                             <Link to={"/"}><img src="/TalentBoostLogo.svg" alt="TalentBoost Logo" className="w-32 h-auto"/></Link>
@@ -30,7 +30,7 @@ const Header = () => {
                         </div>
 
                         <div className="flex items-center gap-4">
-                            <a href="#ingresar" className=" bg-[#C2EAFC] text-[#13162E] px-4 rounded-4xl active:bg-white  transition-colors text-lg">Ingresar</a>
+                            <Link to={"/ingresar"} className=" bg-[#C2EAFC] text-[#13162E] px-4 rounded-4xl active:bg-white  transition-colors text-lg">Ingresar</Link>
 
                             <button onClick={toggleMenu} className="md:hidden text-white p-2 focus:text-[#C2EAFC]  transition-colors" aria-label="Toggle menu">
                                 {isMenuOpen ? (

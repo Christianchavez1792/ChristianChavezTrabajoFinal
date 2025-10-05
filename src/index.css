@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  @apply bg-[#13162E]
+}
+
 select option {
     background-color: #1f2937;
     color: white;

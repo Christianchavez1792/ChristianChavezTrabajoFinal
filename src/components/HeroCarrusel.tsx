@@ -1,10 +1,12 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Play, Info, CircleUserRound, Clock } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import bdcursos from "../data/videos.json"
 
 const HeroCarrusel = () => {
     const [IdActual, setIdActual] = useState(0);
     const [selectedCursos, setSelectedCursos] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const shuffled = bdcursos.cursos.sort(() => 0.5 - Math.random());
@@ -27,6 +29,10 @@ const HeroCarrusel = () => {
 
     const sliderposterior = () => {
         setIdActual((prev) => (prev + 1) % selectedCursos.length);
+    };
+
+    const handleReproducir = () => {
+        navigate(`/video/${cursoActual.id}`);
     };
 
     if (selectedCursos.length === 0) {
@@ -58,13 +64,13 @@ const HeroCarrusel = () => {
                             {cursoActual.nivel}
                         </span>
                         <span className="flex items-center gap-2"> <Clock /> {cursoActual.duración}</span>
-                        <span className="flex items-center gap-2"><CircleUserRound/> {cursoActual.instructor}</span>
+                        <span className="flex items-center gap-2"><CircleUserRound /> {cursoActual.instructor}</span>
                     </div>
                     <p className="text-sm md:text-lg text-gray-200 line-clamp-3">
                         {cursoActual.descripción}
                     </p>
                     <div className="flex gap-3 md:gap-4">
-                        <button className="flex items-center gap-1 px-3 text-sm md:px-8 py-2 md:py-3 lg:text-lg bg-white text-black font-bold rounded hover:bg-[#C2EAFC] border-0 transition-colors">
+                        <button  onClick={handleReproducir} className="flex items-center gap-1 px-3 text-sm md:px-8 py-2 md:py-3 lg:text-lg bg-white text-black font-bold rounded hover:bg-[#C2EAFC] border-0 transition-colors">
                             <Play className="w-3 h-3 fill-current" />
                             Reproducir
                         </button>
