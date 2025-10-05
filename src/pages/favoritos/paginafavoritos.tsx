@@ -1,19 +1,21 @@
 import Header from "../../layouts/header/header";
-import Hero from "../../layouts/hero/hero"
+import HeroCarrusel from "../../components/HeroCarrusel";
+import Favoritos from "../../components/HeroFavoritos";
 import Footer from "../../layouts/footer/footer"
 import { FavoritesProvider } from "../../components/Contexto/ContextoFavoritos"
 
-const Home = () => {
+const PaginaFavoritos = () => {
 
     return (
         <FavoritesProvider>
             <div className='overflow-x-hidden'>
                 <Header />
-                <Hero />
+                <HeroCarrusel />
+                <Favoritos />
                 <Footer />
             </div>
         </FavoritesProvider>
     )
 }
 
-export default Home;
+export default PaginaFavoritos;

@@ -1,8 +1,8 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../src/pages/home/Home"
-import Favoritos from "../src/pages/Favoritos/Favoritos"
-import Categorias from "../src/pages/Categorías/Categorías"
+import PaginaFavoritos from "./pages/favoritos/paginafavoritos"
+import PaginaCategorias from './pages/categorias/paginacategorias';
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/categorias" element={<Categorias />} />
-        <Route path="/favoritos" element={<Favoritos />} />
+        <Route path="/categorias" element={<PaginaCategorias />} />
+        <Route path="/favoritos" element={<PaginaFavoritos />} />
       </Routes>
     </BrowserRouter>
   )

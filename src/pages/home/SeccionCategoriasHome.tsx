@@ -1,8 +1,8 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef } from 'react';
-import TarjetaCurso from './TarjetaCursos/TarjetaCursos';
-import bdcursos from '../data/videos.json';
-import { useFavorites } from './Contexto/ContextoFavoritos';
+import TarjetaCurso from '../../components/TarjetaCursos/TarjetaCursos';
+import bdcursos from '../../data/videos.json';
+import { useFavorites } from '../../components/Contexto/ContextoFavoritos';
 
 interface CategoryRowProps {
     categoryName: string;
@@ -38,11 +38,10 @@ const CategoryRow = ({ categoryName, courses, isFavorite, onToggleFavorite }: Ca
                 <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto scrollbar-hide px-4 md:px-8 lg:px-16 pb-4" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                     {courses.map((curso) => (
                         <div key={curso.id} className="flex-none w-86">
-                            <TarjetaCurso {...curso} isFavorite={isFavorite(curso.id)} onToggleFavorite={onToggleFavorite}/></div>
+                            <TarjetaCurso {...curso} isFavorite={isFavorite(curso.id)} onToggleFavorite={onToggleFavorite} /></div>
                     ))}
                 </div>
 
-                {/* Botón Derecha */}
                 <button
                     onClick={() => scroll('right')}
                     className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-black/60 text-white rounded-full opacity-0 group-hover/row:opacity-100 transition-opacity hover:bg-black/80 mr-2"
@@ -55,7 +54,7 @@ const CategoryRow = ({ categoryName, courses, isFavorite, onToggleFavorite }: Ca
     );
 };
 
-const HeroCategorias = () => {
+const SeccionCategoriasHome = () => {
     const { addFavorite, removeFavorite, isFavorite } = useFavorites();
 
     const handleToggleFavorite = (id: number) => {
@@ -66,10 +65,8 @@ const HeroCategorias = () => {
         }
     };
 
-    // Obtener las primeras 3 categorías únicas
     const categoriasUnicas = [...new Set(bdcursos.cursos.map(c => c.categoría))].slice(0, 3);
 
-    // Filtrar 5 cursos por cada categoría
     const categoriasCursos = categoriasUnicas.map(categoria => ({
         nombre: categoria,
         cursos: bdcursos.cursos.filter(c => c.categoría === categoria).slice(0, 6)
@@ -90,4 +87,4 @@ const HeroCategorias = () => {
     );
 };
 
-export default HeroCategorias;
+export default SeccionCategoriasHome;

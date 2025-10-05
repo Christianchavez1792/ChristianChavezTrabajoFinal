@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,19 +15,16 @@ const Header = () => {
                 <div className="w-full bg-[#13162E] px-4 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
                         <div className="flex-shrink-0">
-                            <a href="#">
-                                <img src="/TalentBoostLogo.svg" alt="TalentBoost Logo" className="w-32 h-auto"
-                                />
-                            </a>
+                            <Link to={"/"}><img src="/TalentBoostLogo.svg" alt="TalentBoost Logo" className="w-32 h-auto"/></Link>
                         </div>
 
                         <div className="hidden md:flex flex-1 justify-center">
                             <ul className="flex items-center gap-12">
                                 <li>
-                                    <a href="#categorias" className="text-white focus:text-[#C2EAFC] transition-colors text-lg">Categorías</a>
+                                    <Link to={"/categorias"} className="text-white focus:text-[#C2EAFC] transition-colors text-lg">Categorias</Link>
                                 </li>
                                 <li>
-                                    <a href="#favoritos" className="text-white focus:text-[#C2EAFC] transition-colors text-lg">Favoritos</a>
+                                    <Link to={"/favoritos"} className="text-white focus:text-[#C2EAFC] transition-colors text-lg">Favoritos</Link>
                                 </li>
                             </ul>
                         </div>
@@ -48,13 +46,10 @@ const Header = () => {
                         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 opacity-100 mt-4' : 'max-h-0 opacity-0'}`}>
                         <ul className="space-y- border-t border-[#C2EAFC] pt-4">
                             <li>
-                                <a href="#categorias" className="block px-4 py-3 text-white focus:text-[#C2EAFC] rounded-lg transition-colors text-lg" onClick={() => setIsMenuOpen(false)}>Categorías</a>
+                                <Link to={"/categorias"} className="block px-4 py-3 text-white focus:text-[#C2EAFC] rounded-lg transition-colors text-lg" onClick={() => setIsMenuOpen(false)}>Categorías</Link>
                             </li>
                             <li>
-                                <a href="#estrenos" className="block px-4 py-3 text-white focus:text-[#C2EAFC] rounded-lg transition-colors text-lg" onClick={() => setIsMenuOpen(false)}>Estrenos</a>
-                            </li>
-                            <li>
-                                <a href="#favoritos" className="block px-4 py-3 text-white focus:text-[#C2EAFC] rounded-lg transition-colors text-lg" onClick={() => setIsMenuOpen(false)}>Favoritos</a>
+                                <Link to={"/favoritos"} className="block px-4 py-3 text-white focus:text-[#C2EAFC] rounded-lg transition-colors text-lg" onClick={() => setIsMenuOpen(false)}>Favoritos</Link>
                             </li>
                         </ul>
                     </div>

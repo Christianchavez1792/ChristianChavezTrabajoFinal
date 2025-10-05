@@ -1,5 +1,5 @@
 import HeroCarrusel from "../../components/HeroCarrusel";
-import HeroCategorias from "../../components/HeroCategorias";
+import SeccionCategoriasHome from "../../pages/home/SeccionCategoriasHome";
 import Favoritos from "../../components/HeroFavoritos";
 
 function Hero() {
@@ -13,7 +13,7 @@ function Hero() {
                 <Favoritos />
             </section>
             <section>
-                <HeroCategorias />
+                <SeccionCategoriasHome />
             </section>
         </div>
     );

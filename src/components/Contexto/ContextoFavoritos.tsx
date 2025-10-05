@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 import type { ReactNode} from "react";
 
 interface FavoritesContextType {
@@ -11,7 +11,14 @@ interface FavoritesContextType {
 const FavoritesContext = createContext<FavoritesContextType | undefined>(undefined);
 
 export const FavoritesProvider = ({ children }: { children: ReactNode }) => {
-    const [favorites, setFavorites] = useState<number[]>([]);
+    const [favorites, setFavorites] = useState<number[]>(() => {
+        const savedFavorites = localStorage.getItem("cursosFavoritos");
+        return savedFavorites ? JSON.parse(savedFavorites) : [];
+    });
+
+    useEffect(() => {
+        localStorage.setItem("cursosFavoritos", JSON.stringify(favorites));
+    }, [favorites]);
 
     const addFavorite = (id: number) => {
         setFavorites(prev => [...prev, id]);

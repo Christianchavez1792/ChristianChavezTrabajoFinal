@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Play, Info, Star, CircleUserRound, Clock } from 'lucide-react';
+import { Play, Star, CircleUserRound, Clock } from 'lucide-react';
 
 interface TarjetaCursoProps {
     id: number;

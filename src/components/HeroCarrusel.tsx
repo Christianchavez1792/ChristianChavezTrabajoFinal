@@ -68,10 +68,6 @@ const HeroCarrusel = () => {
                             <Play className="w-3 h-3 fill-current" />
                             Reproducir
                         </button>
-                        <button className="flex items-center gap-1 px-3 text-sm md:px-8 py-2 md:py-3 lg:text-lg bg-[#13162E] text-white font-bold rounded hover:bg-[#C2EAFC] hover:text-[#13162E] border-0 transition-colors">
-                            <Info className="w-4 h-4" />
-                            Más Info
-                        </button>
                     </div>
                 </div>
             </div>

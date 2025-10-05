@@ -1,17 +1,20 @@
 import Header from "../../layouts/header/header";
-import Hero from "../../layouts/hero/hero"
+import Footer from "../../layouts/footer/footer"
 import { FavoritesProvider } from "../../components/Contexto/ContextoFavoritos"
+import HeroVideo from "../../components/HeroVideo"
 
-const Categorias = () => {
+
+const PaginaVideo = () => {
 
     return (
         <FavoritesProvider>
             <div className='overflow-x-hidden'>
                 <Header />
-                <Hero />
+                <HeroVideo />
+                <Footer />
             </div>
         </FavoritesProvider>
     )
 }
 
-export default Categorias;
+export default PaginaVideo;

@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+select option {
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+}
+
+select option:hover,
+select option:focus,
+select option:checked {
+    background-color: #C2EAFC !important;
+    color: #13162E !important;
+}
+
+select option:checked {
+    background: linear-gradient(#C2EAFC, #C2EAFC);
+    color: #13162E;
+}
