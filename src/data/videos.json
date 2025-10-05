@@ -1,0 +1,466 @@
+{
+    "cursos": [
+        {
+            "id": 1,
+            "título": "Persuade y Lidera",
+            "descripción": "En este inspirador video, exploramos las cualidades que hacen de un líder alguien excepcional y carismático.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/dv8LdkjOpjU/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=dv8LdkjOpjU",
+            "duración": "24:35",
+            "instructor": "Xavier Pirla",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 2,
+            "título": "Tengo un equipo, ¿y ahora qué?",
+            "descripción": "Descubre la importancia de motivar a otros para alcanzar grandes metas a través del YEN.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/fMRDUmg_3yM/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=fMRDUmg_3yM",
+            "duración": "17:25",
+            "instructor": "Rubén Duque",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 3,
+            "título": "Oratoria y liderazgo",
+            "descripción": "Aprenderás como hablar en publico con técnicas de oratoria y técnicas de liderazgo que son aplicadas por líderes internacionalmente reconocidos.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/Oc1H3zgDuuY/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=Oc1H3zgDuuY",
+            "duración": "18:05",
+            "instructor": "Stephen Kaiser",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 4,
+            "título": "Liderazgo práctico",
+            "descripción": "Te enseñará habilidades esenciales para mejorar tu efectividad como líder, centrándose en la aplicación práctica de principios de liderazgo.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/MI_9SZ0rshk/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=MI_9SZ0rshk",
+            "duración": "27:05",
+            "instructor": "Cesar Piqueras",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 5,
+            "título": "Cómo Ser un Buen Líder",
+            "descripción": "En este vídeo vamos a tratar el tema del liderazgo y cómo se puede desarrollar esta habilidad tan importante en cualquier ámbito de la vida.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/b_7dnw-n-rc/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=b_7dnw-n-rc",
+            "duración": "11:36",
+            "instructor": "Pedro Buerbaum",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 6,
+            "título": "Sé un Líder de gran influencia",
+            "descripción": "Descubre qué tan escalable es tu negocio y en qué nivel estás con nuestro quiz para el éxito empresarial.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/BSXyDMlMo_g/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=BSXyDMlMo_g",
+            "duración": "11:54",
+            "instructor": "Margarita Pasos",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 7,
+            "título": "5 Estrategias de Liderazgo",
+            "descripción": "Ser un Líder es de fundamental importancia para tu Desarrollo Personal.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/16z28DjRTAA/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=16z28DjRTAA",
+            "duración": "8:10",
+            "instructor": "Full Percepción",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 8,
+            "título": "Cómo ser un GRAN LÍDER",
+            "descripción": "¿Te gustaría ser un gran líder con tus equipos de trabajo, en tu vida personal o profesional?.",
+            "categoría": "Liderazgo",
+            "thumbnail": "https://i.ytimg.com/vi/smdaollYV04/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=smdaollYV04&t=66s",
+            "duración": "9:41",
+            "instructor": "Consejos imagen",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 9,
+            "título": "Excel Básico",
+            "descripción": " Aquí encontrarás todo lo básico y necesario para dar tus primeros pasos en este gran programa.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/jmAUii6Htog/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=jmAUii6Htog",
+            "duración": "30:36",
+            "instructor": "A2 Capacitación",
+            "nivel": "Básico"
+        },
+        {
+            "id": 10,
+            "título": "Tablas Dinámicas en Excel",
+            "descripción": "En solo 10 minutos descubrirás todo lo que necesitas saber para poder crear y ordenar de la mejor manera posible toda la información en tu Tabla Dinámica.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/rpSAvYQfNeo/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=rpSAvYQfNeo",
+            "duración": "11:12",
+            "instructor": "A2 Capacitación",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 11,
+            "título": "Macros en Excel",
+            "descripción": "En este vídeo te explico de forma fácil y clara cómo empezar desde cero para que puedas grabar tu primera macro.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/jjoeK6rzQDA/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=jjoeK6rzQDA",
+            "duración": "19:25",
+            "instructor": "Smart Pro Academy",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 12,
+            "título": "Power BI - Básico",
+            "descripción": "Introducción al curso de Microsoft Power BI, aprenderás a convertir tus datos en información valiosa.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/oQ4q2CSXP4M/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=oQ4q2CSXP4M",
+            "duración": "13:46",
+            "instructor": "Informaticonfig",
+            "nivel": "Básico"
+        },
+        {
+            "id": 13,
+            "título": "Power BI - Avanzado",
+            "descripción": "Conviertete en un pro en Power BI.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/sU3AADs4L8E/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=sU3AADs4L8E",
+            "duración": "11:27",
+            "instructor": "Informaticonfig",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 14,
+            "título": "Linux - Básico",
+            "descripción": "Aprende Linux desde cero para principiantes.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/L906Kti3gzE/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=L906Kti3gzE",
+            "duración": "35:01",
+            "instructor": "Hola Mundo",
+            "nivel": "Básico"
+        },
+        {
+            "id": 15,
+            "título": "Hacking",
+            "descripción": "En este video te mostraré cómo empezar en el mundo del hacking en 2025 y qué necesitas aprender para convertirte en un hacker ético o profesional en ciberseguridad.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/fcpQaxipZr8/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=fcpQaxipZr8",
+            "duración": "18:13",
+            "instructor": "Fazt",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 16,
+            "título": "Visual Studio Code",
+            "descripción": "Aprende desde cero Visual Studio Code, el editor de código más usado en todo el mundo.",
+            "categoría": "Informática",
+            "thumbnail": "https://i.ytimg.com/vi/CxF3ykWP1H4/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=CxF3ykWP1H4",
+            "duración": "9:31",
+            "instructor": "Brais Moure",
+            "nivel": "Básico"
+        },
+        {
+            "id": 17,
+            "título": "Estrategias de Cierre de Ventas",
+            "descripción": "Descubre los 4 cierres de ventas más poderosos con Alex Dey, experto en ventas y motivación.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/XeJbPQgnenM/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=XeJbPQgnenM",
+            "duración": "10:51",
+            "instructor": "Alex Dey",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 18,
+            "título": "El ABC de una venta salvaje",
+            "descripción": "Sandro Meléndez nos comparte su experiencia en ventas, consejos prácticos para comunicarte mejor con tus clientes.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/0JcstDvIAWU/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=0JcstDvIAWU",
+            "duración": "44:40",
+            "instructor": "Cristian Rivero",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 19,
+            "título": "Técnicas de Ventas",
+            "descripción": "Descubre qué tan escalable es tu negocio y en qué nivel estás con nuestro quiz para el éxito empresarial.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/osK3rxLTfu0/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=osK3rxLTfu0",
+            "duración": "7:04",
+            "instructor": "Margarita Pasos",
+            "nivel": "Básico"
+        },
+        {
+            "id": 20,
+            "título": "Errores de Ventas",
+            "descripción": "¿Te ha pasado que el cliente parecía listo para comprar… pero no compró?",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/NmM8L3rdtQo/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=NmM8L3rdtQo",
+            "duración": "28:51",
+            "instructor": "Emprendedor Eficaz",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 21,
+            "título": "Psicología de Ventas",
+            "descripción": "Descubre los secretos más poderosos de la mente humana aplicados al mundo de las ventas.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/54Me85xRTfk/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=54Me85xRTfk",
+            "duración": "51:48",
+            "instructor": "Libronline",
+            "nivel": "Básico"
+        },
+        {
+            "id": 22,
+            "título": "Neuroventas",
+            "descripción": "Cómo vender cualquier cosa y conseguir clientes con Neuroventas.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/OYZZ92QXhHM/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=OYZZ92QXhHM",
+            "duración": "10:41",
+            "instructor": "Jordi Segués",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 23,
+            "título": "Aprende a Vender",
+            "descripción": " Brian Tracy  te ofrece herramientas y consejos prácticos para aprender a vender más y mejor.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/26N7T26yxK4/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=26N7T26yxK4",
+            "duración": "20:17",
+            "instructor": "Venta Millonaria",
+            "nivel": "Básico"
+        },
+        {
+            "id": 24,
+            "título": "Cerrar una venta paso a paso",
+            "descripción": "En este video aprenderás cómo cerrar una venta paso a paso.",
+            "categoría": "Ventas",
+            "thumbnail": "https://i.ytimg.com/vi/uAydqs_eOSA/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=uAydqs_eOSA",
+            "duración": "4:29",
+            "instructor": "Alex Dey",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 25,
+            "título": "6 Principios del Diseño Gráfico",
+            "descripción": "Los 6 principios de diseño gráfico son lo que los diseñadores gráficos profesionales combinan junto con los elementos visuales para lograr componer creatividades con impacto y significado.s",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/4fUbj8DzT6Q/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=4fUbj8DzT6Q",
+            "duración": "6:36",
+            "instructor": "Hey Jaime",
+            "nivel": "Básico"
+        },
+        {
+            "id": 26,
+            "título": "Top 7 Tendencias Diseño Gráfico 2025",
+            "descripción": "Descubre las mejores 7 tendencias en 2025 sobre diseño gráfico.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/GRzQnkIQouA/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=GRzQnkIQouA",
+            "duración": "6:29",
+            "instructor": "By Hanz",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 27,
+            "título": "12 Leyes del UX & UI",
+            "descripción": "12 Leyes de UX que TODO DESARROLLADOR debería CONOCER (SI o SI).",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/ABggYX2jOsM/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=ABggYX2jOs",
+            "duración": "39:19",
+            "instructor": "Soy Dalto",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 28,
+            "título": "Photoshop desde cero",
+            "descripción": "Curso de photoshop desde cero hasta hacer diseños profesionales.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/SU9CvRsECVQ/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=SU9CvRsECVQ",
+            "duración": "21:16",
+            "instructor": "Viegas Estudio",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 29,
+            "título": "Psicología Tipográfica",
+            "descripción": "Estamos constantemente impactados por tipografía a diario. Se encuentra en todo el contenido que consumimos o la información a la que estamos expuestos.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/8EucDWQDThg/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=8EucDWQDThg&t=207s",
+            "duración": "9:33",
+            "instructor": "Hey Jaime",
+            "nivel": "Básico"
+        },
+        {
+            "id": 30,
+            "título": "Diseño de logotipos",
+            "descripción": "La guía definitiva de diseño de logotipos para 2025.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/2RO44hoGdlE/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=2RO44hoGdlE",
+            "duración": "9:27",
+            "instructor": "Satori Graphics",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 31,
+            "título": "Diseño Gráfico Avanzado",
+            "descripción": "Este curso de diseño gráfico es ligeramente avanzado e incluye consejos, trucos y flujos de trabajo avanzados que utilizo personalmente como diseñador gráfico.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/nKoNZ1u21ss/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=nKoNZ1u21ss",
+            "duración": "15:28",
+            "instructor": "Satori Graphics",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 32,
+            "título": "Maquetación en diseño",
+            "descripción": "Si te quedas atascado con los conceptos básicos de maquetación, como las cuadrículas, la alineación y los espacios en blanco, es hora de evolucionar.",
+            "categoría": "Diseño",
+            "thumbnail": "https://i.ytimg.com/vi/fn-r5m6omvE/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=fn-r5m6omvE",
+            "duración": "10:50",
+            "instructor": "Satori Graphics",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 33,
+            "título": "¿Qué es y cómo funciona la Inteligencia Artificial?",
+            "descripción": "¿Qué es la inteligencia artificial? , ¿cómo funciona?, ¿se parece a una inteligencia humana? ¡Vamos a verlo!",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/_tA5cinv0U8/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=_tA5cinv0U8",
+            "duración": "8:32",
+            "instructor": "Derivando",
+            "nivel": "Básico"
+        },
+        {
+            "id": 34,
+            "título": "Tutorial de Inteligencia Artificial",
+            "descripción": "Aprende de forma clara y sencilla las diferencias entre las principales apps y modelos de inteligencia artificial.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/cmep2mdip3k/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=cmep2mdip3k",
+            "duración": "19:20",
+            "instructor": "Platzi",
+            "nivel": "Básico"
+        },
+        {
+            "id": 35,
+            "título": "Persuade y Lidera",
+            "descripción": "En este inspirador video, exploramos las cualidades que hacen de un líder alguien excepcional y carismático.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/dv8LdkjOpjU/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=dv8LdkjOpjU",
+            "duración": "24:35",
+            "instructor": "Xavier Pirla",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 36,
+            "título": "Tutorial ChatGPT",
+            "descripción": "En este Tutorial rápido en español, te voy a enseñar a utilizar ChatGPT y te explicaré como funciona para que le saques jugo a esta inteligencia artificial.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/3u1k7Jyn434/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=3u1k7Jyn434",
+            "duración": "6:43",
+            "instructor": "Valeria Digital",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 37,
+            "título": "10 Apps con Inteligencia Artificial",
+            "descripción": "En este video te muestro las mejores Apps con IA (Inteligencia Artificial) que puedes probar ahora mismo.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/K4xGY3-4d14/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=K4xGY3-4d14",
+            "duración": "7:37",
+            "instructor": "Domingo Gomes",
+            "nivel": "Avanzado"
+        },
+        {
+            "id": 38,
+            "título": "IA de Google",
+            "descripción": "Descubre conceptos como el Machine Learning, Deep Learning, Modelos Generativos... y con ellos sabrás qué son las herramientas de IA como ChatGPT, Midjourney, Gemini, Claude.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/-idMBeCCCzs/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=-idMBeCCCzs",
+            "duración": "11:33",
+            "instructor": "DonebyLaura",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": 39,
+            "título": "Inteligencia Artificial General",
+            "descripción": "Uno de los conceptos más discutidos actualmente es qué es la AGI.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/p_S6NIEfu-U/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=p_S6NIEfu-U",
+            "duración": "24:28",
+            "instructor": "Dot CSV",
+            "nivel": "Básico"
+        },
+        {
+            "id": 40,
+            "título": "IA en las empresas",
+            "descripción": "¿Sabes usar la inteligencia artificial en tu trabajo? Puede que estés perdiendo una gran oportunidad… o peor aún, usándola mal.",
+            "categoría": "Inteligencia Artificial",
+            "thumbnail": "https://i.ytimg.com/vi/fcIBacQhHw4/hqdefault.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=fcIBacQhHw4",
+            "duración": "42:05",
+            "instructor": "EDteam",
+            "nivel": "Intermedio"
+        }
+    ],
+    "categorías": [
+        {
+            "id": 1,
+            "name": "Liderazgo"
+        },
+        {
+            "id": 2,
+            "name": "Informática"
+        },
+        {
+            "id": 3,
+            "name": "Ventas"
+        },
+        {
+            "id": 4,
+            "name": "Diseño"
+        },
+        {
+            "id": 5,
+            "name": "Inteligencia Artificial"
+        }
+    ]
+}
