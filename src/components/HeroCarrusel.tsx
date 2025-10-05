@@ -1,11 +1,23 @@
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight, Play, Info, CircleUserRound, Clock } from "lucide-react";
+import { ChevronLeft, ChevronRight, Play, CircleUserRound, Clock } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import bdcursos from "../data/videos.json"
 
+interface Curso {
+    id: number;
+    título: string;
+    descripción: string;
+    categoría: string;
+    thumbnail: string;
+    videoUrl: string;
+    duración: string;
+    instructor: string;
+    nivel: string;
+}
+
 const HeroCarrusel = () => {
     const [IdActual, setIdActual] = useState(0);
-    const [selectedCursos, setSelectedCursos] = useState([]);
+    const [selectedCursos, setSelectedCursos] = useState<Curso[]>([]);
     const navigate = useNavigate();
 
     useEffect(() => {
